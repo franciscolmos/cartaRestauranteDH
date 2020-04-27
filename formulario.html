@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <form action="index.html">
+        <div>
+            <p><b>¿De dónde sos?</b></p>
+        <select name="Pais" id="pais">
+            <option value="" select>Seleccioná una opción</option>
+            <option value="Ar">Argentina</option>
+            <option value="Br">Brazil</option>
+            <option value="Ch">Chile</option>
+            <option value="Col">Colombia</option>
+            <option value="Mx">México</option>
+        </select> <br>
+        <p><b>¿Que te pareció la iluminación del ambiene?</b></p>
+        <input type="checkbox" name="iluminacion" value="mb">Muy acorde <br>
+        <input type="checkbox" name="iluminacion" value="b">Buena, pero podría mejorar <br>
+        <input type="checkbox" name="iluminacion" value="ml">Mala <br>
+        <p><b>¿Qué tipo de plato fue el que más te gustó?</b></p>
+        <input type="checkbox" name="iluminacion" value="ent">Entrada <br>
+        <input type="checkbox" name="iluminacion" value="ppl">Plato principal <br>
+        <input type="checkbox" name="iluminacion" value="pst">Postre <br>
+        <input type="checkbox" name="iluminacion" value="otr">Otros <br>
+        <p><b>¿Recomendarías el lugar?</b></p>
+        <input type="radio" name="recomendar" value="si">Sí
+        <input type="radio" name="recomendar" value="si">No <br>
+        <p><b>¿Porqué?</b></p> 
+        <textarea name="recomendacion" id="recomendacion" cols="70" rows="8"></textarea> <br>
+        <p><b>Dejanos tus datos y nos pondremos en contacto con vos</b></p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="tu nombre" id="nombre" name="nombre" required> <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="tu email" id="email" name="email" required> <br> <br>
+        <button type="submit" id="enviar" name="enviar" class="enviar">Enviar</button>
+        <button type="reset" id="resetear" name="resetear" class="resetear">Resetear</button>
+        </div>
+    </form>
+</body>
+</html>
